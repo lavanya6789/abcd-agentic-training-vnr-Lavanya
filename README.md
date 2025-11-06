@@ -106,15 +106,15 @@ The workflow ends after sending both Telegram and Gmail notifications.
 
 🧩 Tools & Technologies
 
-Tool / Platform	Purpose
-✨ n8n	Automation & workflow orchestration
-📧 Gmail API	Detects new emails & sends automatic replies
-🤖 AI Agent (OpenAI)	Classifies emails as Important / Not Important
-🐙 GitHub API	Creates issues automatically for important emails
-📲 Telegram Bot API	Sends instant notifications & alerts
-🔐 OAuth Tokens / API Keys	Secure authentication for Gmail, GitHub & Telegram
-🔄 REST API / JSON	Data exchange between services in the workflow
-✅ Workflow Steps
+| **Tool / Platform**            | **Purpose**                                         |
+| ------------------------------ | --------------------------------------------------- |
+| ✨ **n8n**                     | Automation & workflow orchestration                |
+| 📧 **Gmail API**               | Detects new emails & sends automatic replies        |
+| 🤖 **AI Agent (OpenAI)**       | Classifies emails as *Important* or *Not Important* |
+| 🐙 **GitHub API**              | Creates issues automatically for important emails   |
+| 📲 **Telegram Bot API**        | Sends instant notifications & alerts                |
+| 🔐 **OAuth Tokens / API Keys** | Secure authentication for Gmail, GitHub & Telegram  |
+
 
 Gmail Trigger: Detects new incoming email.
 
