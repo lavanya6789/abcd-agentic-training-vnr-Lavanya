@@ -10,31 +10,31 @@ This removes the need for manually scanning busy inboxes and ensures that urgent
 
 ⚙️ Features
 
-Automatic Email Detection
-A Gmail Trigger node constantly monitors the inbox for new messages.
+ -Automatic Email Detection
+ -A Gmail Trigger node constantly monitors the inbox for new messages.
 
-AI-Based Email Classification
-An AI Agent analyzes each email and classifies it as:
+ -AI-Based Email Classification
+ -An AI Agent analyzes each email and classifies it as:
 
-Important
+   -Important
 
-Not Important
+   -Not Important
 
-GitHub Issue Creation
-If an email is important, a GitHub Issue is automatically created with:
+  -GitHub Issue Creation
+     -If an email is important, a GitHub Issue is automatically created with:
 
-Email subject as the title
+  -Email subject as the title
 
-Email body as the description
+  -Email body as the description
 
-Instant Telegram Notification
-A Telegram message is sent immediately to notify the user about the important email.
+  -Instant Telegram Notification
+      -A Telegram message is sent immediately to notify the user about the important email.
 
-Gmail Auto-Reply
-A confirmation email is automatically sent to the sender.
+  -Gmail Auto-Reply
+      -A confirmation email is automatically sent to the sender.
 
-Smooth End-to-End Workflow
-The workflow ends after sending both Telegram and Gmail notifications.
+  -Smooth End-to-End Workflow
+     -The workflow ends after sending both Telegram and Gmail notifications.
 
 🏗️Architecture
 
@@ -82,27 +82,27 @@ The workflow ends after sending both Telegram and Gmail notifications.
 
 ✅ Existing System (Problems)
 
-  Emails can be missed in a flooded inbox.
+    -Emails can be missed in a flooded inbox.
 
-  No automatic way to detect urgent messages.
+    -No automatic way to detect urgent messages.
 
-  Users must manually check emails.
+    -Users must manually check emails.
 
-  No alerting mechanism.
+    -No alerting mechanism.
 
-  No integration between Gmail, GitHub, and Telegram.
+    -No integration between Gmail, GitHub, and Telegram.
 
 ✅ Proposed System (Solution)
 
-  Uses AI to classify the importance of emails.
+    -Uses AI to classify the importance of emails.
 
-  Automatically creates GitHub issues for urgent tasks.
+    -Automatically creates GitHub issues for urgent tasks.
 
-  Sends instant notifications via Telegram.
+    -Sends instant notifications via Telegram.
 
-  Sends auto-reply confirmation through Gmail.
+    -Sends auto-reply confirmation through Gmail.
 
-  Fully automated and reduces manual work.
+    -Fully automated and reduces manual work.
 
 🧩 Tools & Technologies
 
@@ -116,23 +116,23 @@ The workflow ends after sending both Telegram and Gmail notifications.
 | 🔐 **OAuth Tokens / API Keys** | Secure authentication for Gmail, GitHub & Telegram  |
 
 
-Gmail Trigger: Detects new incoming email.
+-Gmail Trigger: Detects new incoming email.
 
-AI Agent: Reads email content and categorizes it.
+-AI Agent: Reads email content and categorizes it.
 
-If Important:
+-If Important:
 
-Creates GitHub Issue
+-Creates GitHub Issue
 
-Sends Telegram Notification
+-Sends Telegram Notification
 
-Sends Gmail Auto-Reply
+-Sends Gmail Auto-Reply
 
-If Not Important: No action is taken.
+ -If Not Important: No action is taken.
 
 Workflow ends.
 
-Setup Instructions
+🧨Setup Instructions
 
 1. Sign up on [n8n.io](https://app.n8n.io/workflows) and open your workflow editor.
  
