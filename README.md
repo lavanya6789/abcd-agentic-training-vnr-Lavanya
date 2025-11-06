@@ -114,7 +114,6 @@ Tool / Platform	Purpose
 📲 Telegram Bot API	Sends instant notifications & alerts
 🔐 OAuth Tokens / API Keys	Secure authentication for Gmail, GitHub & Telegram
 🔄 REST API / JSON	Data exchange between services in the workflow
-
 ✅ Workflow Steps
 
 Gmail Trigger: Detects new incoming email.
